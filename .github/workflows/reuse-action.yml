@@ -11,15 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: REUSE version
-      uses: ./
-      with:
-        args: --version
-    - name: REUSE lint
-      uses: ./
-      with:
-        args: --include-submodules lint
-    - name: REUSE SPDX SBOM
-      uses: ./
-      with:
-        args: spdx
+    - name: REUSE Compliance Check
+      uses: fsfe/reuse-action@v1
