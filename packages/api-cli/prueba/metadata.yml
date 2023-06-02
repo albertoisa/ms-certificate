@@ -1,0 +1,13 @@
+apis:
+  - name: "REST Sample"
+    api-spec-type: rest
+    definition-path: myApis/rest
+    definition-file: contract/openapi-rest.yml
+  - name: "REST Sample fix"
+    api-spec-type: rest
+    definition-path: myApis/rest
+    definition-file: contract/openapi-rest copy.yml
+  - name: "REST Sample evo"
+    api-spec-type: rest
+    definition-path: myApis/rest
+    definition-file: contract/openapi-rest evo.yml

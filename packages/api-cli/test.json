@@ -1,0 +1,948 @@
+[
+    {
+        "validationDateTime": "2023-05-23T11:21:05.889Z",
+        "apiName": "REST Sample",
+        "apiProtocol": 1,
+        "result": [
+            {
+                "designValidation": {
+                    "validationType": 1,
+                    "spectralValidation": {
+                        "issues": [
+                            {
+                                "code": "contact-email",
+                                "message": "Definition must have a contact email",
+                                "path": [
+                                    "info"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 1,
+                                        "character": 5
+                                    },
+                                    "end": {
+                                        "line": 31,
+                                        "character": 16
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "info-contact",
+                                "message": "Info object must have \"contact\" object.",
+                                "path": [
+                                    "info"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 1,
+                                        "character": 5
+                                    },
+                                    "end": {
+                                        "line": 31,
+                                        "character": 16
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "apiProtocols"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 249,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 259,
+                                        "character": 11
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationTypes"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 260,
+                                        "character": 20
+                                    },
+                                    "end": {
+                                        "line": 271,
+                                        "character": 11
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "apiIdentifier"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 272,
+                                        "character": 18
+                                    },
+                                    "end": {
+                                        "line": 281,
+                                        "character": 51
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationRequestRepositoryURL"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 282,
+                                        "character": 35
+                                    },
+                                    "end": {
+                                        "line": 300,
+                                        "character": 24
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationRequestFileURL"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 301,
+                                        "character": 29
+                                    },
+                                    "end": {
+                                        "line": 315,
+                                        "character": 21
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationRequestForm"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 316,
+                                        "character": 26
+                                    },
+                                    "end": {
+                                        "line": 333,
+                                        "character": 24
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationRequestFileForm"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 334,
+                                        "character": 30
+                                    },
+                                    "end": {
+                                        "line": 347,
+                                        "character": 21
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "arrayOfValidationResponse"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 348,
+                                        "character": 30
+                                    },
+                                    "end": {
+                                        "line": 352,
+                                        "character": 55
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "fileVerifyProtocolResponse"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 353,
+                                        "character": 31
+                                    },
+                                    "end": {
+                                        "line": 365,
+                                        "character": 33
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "moduleDescription"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 367,
+                                        "character": 22
+                                    },
+                                    "end": {
+                                        "line": 390,
+                                        "character": 44
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "spectralRule"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 391,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 445,
+                                        "character": 26
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "range"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 447,
+                                        "character": 10
+                                    },
+                                    "end": {
+                                        "line": 455,
+                                        "character": 47
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "position"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 457,
+                                        "character": 13
+                                    },
+                                    "end": {
+                                        "line": 475,
+                                        "character": 20
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "spectralValidation"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 477,
+                                        "character": 23
+                                    },
+                                    "end": {
+                                        "line": 486,
+                                        "character": 53
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "documentationRule"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 488,
+                                        "character": 22
+                                    },
+                                    "end": {
+                                        "line": 545,
+                                        "character": 15
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "documentationValidation"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 547,
+                                        "character": 28
+                                    },
+                                    "end": {
+                                        "line": 558,
+                                        "character": 58
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "protolintRule"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 560,
+                                        "character": 18
+                                    },
+                                    "end": {
+                                        "line": 608,
+                                        "character": 15
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "protolintValidation"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 610,
+                                        "character": 24
+                                    },
+                                    "end": {
+                                        "line": 619,
+                                        "character": 54
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "validationResponse"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 621,
+                                        "character": 23
+                                    },
+                                    "end": {
+                                        "line": 667,
+                                        "character": 23
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "designValidation"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 668,
+                                        "character": 21
+                                    },
+                                    "end": {
+                                        "line": 679,
+                                        "character": 58
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "moduleValidation"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 682,
+                                        "character": 21
+                                    },
+                                    "end": {
+                                        "line": 693,
+                                        "character": 55
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "score"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 695,
+                                        "character": 10
+                                    },
+                                    "end": {
+                                        "line": 701,
+                                        "character": 42
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "errorObject"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 702,
+                                        "character": 16
+                                    },
+                                    "end": {
+                                        "line": 739,
+                                        "character": 111
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "errorObject",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 706,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 733,
+                                        "character": 113
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "400BadRequestError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 741,
+                                        "character": 23
+                                    },
+                                    "end": {
+                                        "line": 758,
+                                        "character": 115
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "400BadRequestError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 745,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 751,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "401UnauthorizedError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 759,
+                                        "character": 25
+                                    },
+                                    "end": {
+                                        "line": 776,
+                                        "character": 124
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "401UnauthorizedError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 763,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 769,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "403ForbiddenError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 777,
+                                        "character": 22
+                                    },
+                                    "end": {
+                                        "line": 794,
+                                        "character": 89
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "403ForbiddenError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 781,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 787,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "404NotFoundError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 795,
+                                        "character": 21
+                                    },
+                                    "end": {
+                                        "line": 812,
+                                        "character": 81
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "404NotFoundError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 799,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 805,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "500InternalServerError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 813,
+                                        "character": 27
+                                    },
+                                    "end": {
+                                        "line": 830,
+                                        "character": 137
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "500InternalServerError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 817,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 823,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "503ServiceUnavailableError"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 831,
+                                        "character": 31
+                                    },
+                                    "end": {
+                                        "line": 848,
+                                        "character": 101
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "503ServiceUnavailableError",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 835,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 841,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "oas3-unused-component",
+                                "message": "Potentially unused component has been detected.",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "504GatewayTimeOut"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 849,
+                                        "character": 22
+                                    },
+                                    "end": {
+                                        "line": 866,
+                                        "character": 84
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            },
+                            {
+                                "code": "error-response-definitions-rfc7807-status",
+                                "message": "RFC-7807 Problem specification: status (integer) should be defined",
+                                "path": [
+                                    "components",
+                                    "schemas",
+                                    "504GatewayTimeOut",
+                                    "properties"
+                                ],
+                                "severity": 1,
+                                "source": "/myApis/rest/contract/openapi-rest.yml",
+                                "range": {
+                                    "start": {
+                                        "line": 853,
+                                        "character": 17
+                                    },
+                                    "end": {
+                                        "line": 859,
+                                        "character": 52
+                                    }
+                                },
+                                "fileName": "/myApis/rest/contract/openapi-rest.yml"
+                            }
+                        ]
+                    },
+                    "protolintValidation": {
+                        "issues": []
+                    },
+                    "score": 93.85,
+                    "rating": "A",
+                    "ratingDescription": "Very Good"
+                }
+            },
+            {
+                "securityValidation": {
+                    "validationType": 3,
+                    "spectralValidation": {
+                        "issues": []
+                    },
+                    "protolintValidation": {
+                        "issues": []
+                    },
+                    "score": 100,
+                    "rating": "A+",
+                    "ratingDescription": "Excellent"
+                }
+            },
+            {
+                "documentationValidation": {
+                    "validationType": 2,
+                    "issues": [
+                        {
+                            "lineNumber": 1,
+                            "ruleNames": [
+                                "EX_MD063",
+                                "custom-readme-does-not-exist"
+                            ],
+                            "ruleDescription": "API README file must exist",
+                            "errorDetail": null,
+                            "errorContext": "API README file must exist",
+                            "errorRange": null,
+                            "severity": 0
+                        }
+                    ],
+                    "score": 0,
+                    "rating": "D",
+                    "ratingDescription": "Inadequate"
+                }
+            }
+        ],
+        "score": 82.54,
+        "rating": "B",
+        "ratingDescription": "Good",
+        "hasErrors": false
+    }
+]
